@@ -1,2 +1,6 @@
-ReactDOM.render(<h1>Its Rendering from React</h1>, document.getElementById("root"))
-ReactDOM.render(<h2>Its Rendering from React with Query Selector</h2>, document.querySelector(".root"))
+ReactDOM.render((<h1>Fruit</h1>,<ul>
+   <li>apple</li>
+   <li>Banana</li>
+   <li>Lemmon</li>
+   <li>Orange</li>
+</ul>),document.getElementById("root"))
