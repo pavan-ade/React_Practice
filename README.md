@@ -1,4 +1,4 @@
-# React_Practice
+# React Practice
 ## Lec 01
 ### About 
 - it was first released in 2023 
