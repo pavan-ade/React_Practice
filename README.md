@@ -20,7 +20,8 @@
 - example 
    ReactDOM.render(element, selected element );
 
-   ## Why React 
+## Lec 02
+## Why React 
    - it's composable
    -  React allows developers to create components that can be used in multiple places, saving time and effort
    - genarally in web-devlopement have more repeated/boilore plate code (its fine with but if we wanna change any change i have to manually in every single page and place)
