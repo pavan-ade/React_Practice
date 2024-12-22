@@ -18,4 +18,4 @@
 - And allowing you to render your React elements onto a web-page by providing methods to Manipulate
 - its the key component for connecting React's Virtual DOM to the real DOM, enabling smooth updates and performance optimizations.
 - example 
---- ReactDOM.render(element, selected element );
+   ReactDOM.render(element, selected element );
