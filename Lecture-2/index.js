@@ -1,19 +1,12 @@
 function ListTags(){
    return (
-      <div>
-         <ul>
-            <li>apple</li>
-            <li>Banana</li>
-            <li>Lemmon</li>
-            <li>Orange</li>
-         </ul>
-      </div>
+    <h2>Heading 2</h2>
    )
 }
 
 ReactDOM.render(
    <div>    
-      <h1>Friutes</h1>
+      <h1>Heading 1</h1>
       <ListTags />
    </div>
    ,document.getElementById("root")
