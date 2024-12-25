@@ -8,12 +8,12 @@
 - powers thousabnds of enterprise apps, including mobile Apps
 - react is a javaScript library
 
-## CND Links
+### CND Links
 - <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
 - <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 - <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 - These above links help to easy way set-up the React with CDN
-## ReactDOM 
+### ReactDOM 
 - it act like a Bridge between the Your React Component and Browser DOM
 - And allowing you to render your React elements onto a web-page by providing methods to Manipulate
 - its the key component for connecting React's Virtual DOM to the real DOM, enabling smooth updates and performance optimizations.
@@ -21,7 +21,7 @@
    ReactDOM.render(element, selected element );
 
 ## Lec 02
-## Why React 
+### Why React 
    - it's composable
    -  React allows developers to create components that can be used in multiple places, saving time and effort
    - genarally in web-devlopement have more repeated/boilore plate code (its fine with but if we wanna change any change i have to manually in every single page and place)
@@ -36,26 +36,26 @@
    - React's virtual DOM can reduce rendering time by up to 50% compared to traditional methods. It also allows developers to update components without having to update the entire DOM
    -  React Native allows developers to create apps for both web and mobile.
 
-   ## JSX (javaScript XML)
+##### JSX (javaScript XML)
    - jsx is a syntax extesion for javaScript that's used to create HTML like markup in React, a JavaScript Library
    - jsx is a mix of HTML and JavaScript systax tha allow you write markup inside a JavaScript file 
    - its similar to html, but its stricter and can display dynamic information.
    - its use to create dynamic markup, reduce Code, improve readability and Conditionally show elements.
-   ### How does Work ?
+   #### How does Work ?
    - JSX is transpiled into nested JavaScript calls.
    - The frist part of a JSX tag determines the type of the React element 
    - Example const welCome = `<h1> Welcome to React </h1>`    
    - - ReactDOM.createRoot( document.getElementById('root') )
    - - root.render(myElement);
 ## Lec 03
-   ## Project set-up
+   ### Project set-up
    - for create a React project we need a Node js (prefere which have LTS)
    - for Create a project we have one cmd :
    - step 1 : npm create vite@latest (we have multiple cmds but this is prefered one).
    - step 2 : ? Project name: » vite-project (write your own Project)
    - step 3 : ? Package name: >> vite-project (write your own package)
    - step 4 : 
-              `? Select a framework: » - Use arrow-keys. Return to submit.
+              ? Select a framework: » - Use arrow-keys. Return to submit.
                   Vanilla
                   Vue
                >  React
@@ -65,7 +65,7 @@
                   Solid
                   Qwik
                   Angular
-                  Others  `
+                  Others  
       select here React 
    - step 5 : 
             ? Select a variant: » - Use arrow-keys. Return to submit.
