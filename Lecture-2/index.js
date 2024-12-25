@@ -1,4 +1,4 @@
-function LiTags(){
+function ListTags(){
    return (
       <div>
          <ul>
@@ -14,7 +14,7 @@ function LiTags(){
 ReactDOM.render(
    <div>    
       <h1>Friutes</h1>
-      <LiTags />
+      <ListTags />
    </div>
    ,document.getElementById("root")
 )
