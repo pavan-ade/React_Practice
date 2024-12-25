@@ -55,7 +55,7 @@
    - step 2 : ? Project name: » vite-project (write your own Project)
    - step 3 : ? Package name: >> vite-project (write your own package)
    - step 4 : 
-              ? Select a framework: » - Use arrow-keys. Return to submit.
+              `? Select a framework: » - Use arrow-keys. Return to submit.
                   Vanilla
                   Vue
                >  React
@@ -65,7 +65,7 @@
                   Solid
                   Qwik
                   Angular
-                  Others  
+                  Others  `
       select here React 
    - step 5 : 
             ? Select a variant: » - Use arrow-keys. Return to submit.
