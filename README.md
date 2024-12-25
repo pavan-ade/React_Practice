@@ -3,7 +3,7 @@
 ### About 
 - it was first released in 2023 
 - it was originally created by jordan walke
-- Has well over 1ook starss on GitHUb
+- Has well over 100k starss on GitHUb
 - Is mainteined by facebook
 - powers thousabnds of enterprise apps, including mobile Apps
 - react is a javaScript library
