@@ -70,10 +70,10 @@
    - step 5 : 
             ? Select a variant: » - Use arrow-keys. Return to submit.
                >   TypeScript
-                  TypeScript + SWC
-                  JavaScript
-                  JavaScript + SWC
-                  React Router v7 
+               TypeScript + SWC
+               JavaScript
+               JavaScript + SWC
+               React Router v7 
             select your onw type (prefere one js)
    - step 6 : upto step 5 React Project architecture will be build.
    - step 7 : to run the Project use these cmd
