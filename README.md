@@ -44,6 +44,7 @@
    ### How does Work ?
    - JSX is transpiled into nested JavaScript calls.
    - The frist part of a JSX tag determines the type of the React element 
-   - Example const welCome = `<h1> Welcome to React </h1>`    
+   - Example: 
+         const welCome = `<h1> Welcome to React </h1>`    
    - - ReactDOM.createRoot( document.getElementById('root') )
    - - root.render(myElement);
