@@ -20,8 +20,13 @@
 - example 
    ReactDOM.render(element, selected element );
 
+<<<<<<< HEAD
 ## Lec 02
 ### Why React 
+=======
+## Lec 02 
+## Why React 
+>>>>>>> lec-4
    - it's composable
    -  React allows developers to create components that can be used in multiple places, saving time and effort
    - genarally in web-devlopement have more repeated/boilore plate code (its fine with but if we wanna change any change i have to manually in every single page and place)
@@ -44,9 +49,11 @@
    #### How does Work ?
    - JSX is transpiled into nested JavaScript calls.
    - The frist part of a JSX tag determines the type of the React element 
-   - Example const welCome = `<h1> Welcome to React </h1>`    
+   - Example: 
+         const welCome = `<h1> Welcome to React </h1>`    
    - - ReactDOM.createRoot( document.getElementById('root') )
    - - root.render(myElement);
+<<<<<<< HEAD
 ## Lec 03
    ### Project set-up
    - for create a React project we need a Node js (prefere which have LTS)
@@ -82,3 +89,22 @@
                npm run dev
 
 -Project set up is complated
+=======
+  ### lec 03
+   ## Component  (UI Building Block)
+      - Compoent are one of the core concepts of React
+      - They are the fundation upon which you build user interface
+      - Component is a javascript function that you can sprinkle with markup
+      - And the magic of the Component is reusability
+      - you can create components that are composed of the components.
+      - But as you nest more and more compoents, it often makes sense to start spliting them into different files.
+      - This lets you keep your files easy to scan and reuse components in more place
+   ### Root Component 
+     - Which is contains all the Component file with one Component file is know as Root Component.
+     - Inside the React App.jsx is Root Component genarally we place Component with the App.jsx component
+   ### Exporting and importing a component
+   - Export your function component from that file (using either default or named exports)
+       - Exaxmple : export default function App() {return () } 
+   - Import it in the file where you’ll use the component (using the corresponding technique for importing default or named exports) 
+      - Example : import Gallery from './Gallery.js';
+>>>>>>> lec-4
