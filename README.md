@@ -35,3 +35,16 @@
    - React has developer tools, browser extensions, and JSX syntax to help developers improve efficiency and productivity.
    - React's virtual DOM can reduce rendering time by up to 50% compared to traditional methods. It also allows developers to update components without having to update the entire DOM
    -  React Native allows developers to create apps for both web and mobile.
+
+   ## JSX (javaScript XML)
+   - jsx is a syntax extesion for javaScript that's used to create HTML like markup in React, a JavaScript Library
+   - jsx is a mix of HTML and JavaScript systax tha allow you write markup inside a JavaScript file 
+   - its similar to html, but its stricter and can display dynamic information.
+   - its use to create dynamic markup, reduce Code, improve readability and Conditionally show elements.
+   ### How does Work ?
+   - JSX is transpiled into nested JavaScript calls.
+   - The frist part of a JSX tag determines the type of the React element 
+   - Example const welCome = <h1> Welcome to React </h1>
+    
+   - - ReactDOM.createRoot( document.getElementById('root') )
+   - - root.render(myElement);
