@@ -47,3 +47,38 @@
    - Example const welCome = `<h1> Welcome to React </h1>`    
    - - ReactDOM.createRoot( document.getElementById('root') )
    - - root.render(myElement);
+## Lec 03
+   ## Project set-up
+   - for create a React project we need a Node js (prefere which have LTS)
+   - for Create a project we have one cmd :
+   - step 1 : npm create vite@latest (we have multiple cmds but this is prefered one).
+   - step 2 : ? Project name: » vite-project (write your own Project)
+   - step 3 : ? Package name: >> vite-project (write your own package)
+   - step 4 : 
+              ? Select a framework: » - Use arrow-keys. Return to submit.
+                  Vanilla
+                  Vue
+               >  React
+                  Preact
+                  Lit
+                  Svelte
+                  Solid
+                  Qwik
+                  Angular
+                  Others  
+      select here React 
+   - step 5 : 
+            ? Select a variant: » - Use arrow-keys. Return to submit.
+               >   TypeScript
+                  TypeScript + SWC
+                  JavaScript
+                  JavaScript + SWC
+                  React Router v7 
+            select your onw type (prefere one js)
+   - step 6 : upto step 5 React Project architecture will be build.
+   - step 7 : to run the Project use these cmd
+               cd vite-project
+               npm install
+               npm run dev
+
+-Project set up is complated
